@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header class="bg-white shadow-md py-4 px-6 flex justify-between items-center">
+        <h1 class="text-xl font-bold text-blue-700">Yoga Abdillah</h1>
+        <nav>
+            <ul class="flex space-x-4">
+                <li><a href="index.html" class="text-gray-600 hover:text-blue-700">Home</a></li>
+                <li><a href="cv.html" class="text-gray-600 hover:text-blue-700">CV</a></li>
+                <li><a href="contact.html" class="text-gray-600 hover:text-blue-700">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="bg-[url('https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHplOW1xbzl2eXNidHA4ZWhpNzhnaHFncm1xZ3pwbzg5ZWF4OHp3cSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ccKEsBDAAQTrutQ9LA/giphy.gif')] bg-cover bg-center min-h-screen flex justify-center items-center">
+        <div class="bg-white/80 p-8 rounded-lg shadow-lg max-w-md w-full">
+            <h2 class="text-3xl font-bold text-gray-800 mb-4 text-center">Contact Me</h2>
+            <form class="space-y-4">
+                <input type="text" placeholder="Your Name" required class="w-full p-3 border border-gray-300 rounded-lg text-lg">
+                <input type="email" placeholder="Your Email" required class="w-full p-3 border border-gray-300 rounded-lg text-lg">
+                <textarea placeholder="Your Message" required class="w-full p-3 border border-gray-300 rounded-lg text-lg"></textarea>
+                <button type="submit" class="w-full bg-blue-500 text-white py-3 rounded-lg text-lg">
+                    <a href="mailto:yogaabdilah05@gmail.com?subject=Contact%20Form%20Submission&body=Name:%20[Your%20Name]%0AEmail:%20[Your%20Email]%0AMessage:%20[Your%20Message]">
+                        Send
+                    </a>
+                </button>                
+            </form>
+        </div>
+    </section>
+</body>
+</html>
